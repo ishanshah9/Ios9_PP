@@ -1,0 +1,53 @@
+PODS:
+  - AFNetworking (2.6.2):
+    - AFNetworking/NSURLConnection (= 2.6.2)
+    - AFNetworking/NSURLSession (= 2.6.2)
+    - AFNetworking/Reachability (= 2.6.2)
+    - AFNetworking/Security (= 2.6.2)
+    - AFNetworking/Serialization (= 2.6.2)
+    - AFNetworking/UIKit (= 2.6.2)
+  - AFNetworking/NSURLConnection (2.6.2):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.2):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.2)
+  - AFNetworking/Security (2.6.2)
+  - AFNetworking/Serialization (2.6.2)
+  - AFNetworking/UIKit (2.6.2):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - JGProgressHUD (1.3.1)
+  - Spark-SDK (0.3.3):
+    - Spark-SDK/Helpers (= 0.3.3)
+    - Spark-SDK/SDK (= 0.3.3)
+  - Spark-SDK/Helpers (0.3.3)
+  - Spark-SDK/SDK (0.3.3):
+    - AFNetworking
+    - Spark-SDK/Helpers
+  - SparkSetup (0.3.2):
+    - SparkSetup/Comm (= 0.3.2)
+    - SparkSetup/Core (= 0.3.2)
+    - SparkSetup/Resources (= 0.3.2)
+  - SparkSetup/Comm (0.3.2)
+  - SparkSetup/Core (0.3.2):
+    - Spark-SDK
+    - SparkSetup/Comm
+    - SparkSetup/Resources
+  - SparkSetup/Resources (0.3.2)
+
+DEPENDENCIES:
+  - JGProgressHUD
+  - Spark-SDK
+  - SparkSetup
+
+SPEC CHECKSUMS:
+  AFNetworking: 7f317038a9710cabfa43ec56396b307b45df72ab
+  JGProgressHUD: 153053a21d81208cb5f659691996bcefce6a9885
+  Spark-SDK: 00d9f8e4f7f111d9f042e4134a422a6f55d05fd1
+  SparkSetup: 944c9f6fc0c314e0138bebbea23dccb491cb384d
+
+COCOAPODS: 0.39.0
